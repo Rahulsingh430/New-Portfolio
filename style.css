@@ -1,0 +1,184 @@
+/* ****************************Navbar************************************ */
+body {
+  margin: 0%;
+  padding: 2% 5%;
+  font-family: "Poppins" !important;
+  font-size: 1rem;
+}
+
+.navbar .port_head {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.port_head .word {
+  color: #00abae;
+}
+ul {
+  list-style-type: none;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 1rem;
+  font-size: small;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0px 20px 0px;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+#abc {
+  padding: 5px 13px;
+  border: solid #00abc0;
+  border-radius: 5px;
+  background: #00abae;
+  color: white;
+}
+.profile {
+  display: flex;
+  align-items: center;
+}
+.pic {
+  display: contents;
+  justify-content: center;
+}
+.profile .profile_pic {
+  width: 33%;
+  padding: 10px auto;
+  border: solid;
+  border-radius: 50%;
+  border-width: 10px;
+  border-color: #00abae;
+}
+
+.profile_written_content {
+  font-size: 1rem;
+  font-weight: 100;
+  padding: 29px 0px;
+}
+/* ******************************************************** */
+#about_head {
+  font-size: 1.5rem;
+}
+.about {
+  display: flex;
+  gap: 1rem;
+}
+
+.about .about_data h3 {
+  font-size: 1rem;
+}
+.about .about_data p {
+  font-size: 0.7rem;
+}
+#about_head1 {
+  font-size: 1.5rem;
+}
+.skill_logo {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.skill_logo img {
+  width: 10%;
+}
+/* ************************************************************** */
+.project {
+  display: flex;
+  align-items: center;
+  margin-bottom: 35px;
+}
+.project .project_discription {
+  flex-basis: 60%;
+}
+.project .project_image {
+  flex-basis: 40%;
+}
+.project .project_image img {
+  width: 100%;
+}
+.bottom_sec {
+  margin: 5%;
+  text-align: center;
+}
+/* ******************** */
+.footer_logo {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+footer {
+  text-align: center;
+}
+/* ******************************* */
+
+@media screen and (max-width: 500px) {
+  .profile {
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+  }
+  .profile_written_content {
+    font-size: 0.7rem;
+    padding: 29px 0px;
+    text-align: center;
+  }
+  .profile_written_content h1 {
+    font-weight: lighter;
+    margin-bottom: 10px;
+  }
+  .profile_written_content #name {
+    font-weight: bold;
+  }
+  .about {
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+  }
+  #about_head {
+    font-size: 1.3rem;
+  }
+  .skill_logo {
+    /* display: flex; */
+    /* align-items: center; */
+    gap: 0.8rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    place-items: center;
+  }
+  .skill_logo img {
+    width: 45%;
+  }
+  .project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 35px;
+  }
+  .project .project_discription {
+    flex-basis: 60%;
+    margin-bottom: 15px;
+  }
+  .project .project_discription p {
+    flex-basis: 60%;
+    font-size: 0.7rem;
+    text-align: justify;
+  }
+  #abc {
+    font-size: 0.7rem;
+  }
+  .about .about_data p {
+    font-size: 0.7rem;
+    text-align: justify;
+  }
+  footer p {
+    font-size: 0.4rem;
+  }
+}
