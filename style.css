@@ -158,6 +158,7 @@ footer {
   .profile_written_content .button_head {
     display: flex;
     justify-content: center;
+    gap: 1rem;
   }
   .about {
     display: flex;
