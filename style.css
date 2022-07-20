@@ -7,7 +7,7 @@ body {
 }
 
 .navbar .port_head {
-  font-size: 1.5rem;
+  font-size: 1.9rem;
   font-weight: 600;
 }
 .port_head .word {
@@ -20,7 +20,7 @@ ul {
   padding: 0;
   display: flex;
   gap: 1rem;
-  font-size: small;
+  font-size: large;
 }
 
 .navbar {
@@ -58,10 +58,12 @@ a {
   border-color: #00abae;
 }
 
-.profile_written_content {
-  font-size: 1rem;
+.profile_written_content h1 {
+  font-size: 1.7rem;
   font-weight: 100;
-  padding: 29px 0px;
+}
+.profile_written_content h1 #name {
+  font-weight: 500;
 }
 /* ******************************************************** */
 #about_head {
@@ -76,7 +78,8 @@ a {
   font-size: 1rem;
 }
 .about .about_data p {
-  font-size: 0.7rem;
+  font-size: 0.9rem;
+  text-align: justify;
 }
 #about_head1 {
   font-size: 1.5rem;
@@ -90,13 +93,18 @@ a {
   width: 10%;
 }
 /* ************************************************************** */
+#project11 {
+  margin-top: 10%;
+}
 .project {
   display: flex;
   align-items: center;
   margin-bottom: 35px;
+  gap: 1.5rem;
 }
 .project .project_discription {
-  flex-basis: 60%;
+  flex-basis: 55%;
+  text-align: justify;
 }
 .project .project_image {
   flex-basis: 40%;
