@@ -128,22 +128,36 @@ footer {
 /* ******************************* */
 
 @media screen and (max-width: 500px) {
+  .navbar .port_head {
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+  ul {
+    list-style-type: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 1rem;
+    font-size: small;
+  }
   .profile {
     display: flex;
     align-items: center;
     flex-direction: column-reverse;
   }
-  .profile_written_content {
-    font-size: 0.7rem;
-    padding: 29px 0px;
+  .profile_written_content h1 {
+    font-size: 1.2rem;
+
     text-align: center;
   }
-  .profile_written_content h1 {
-    font-weight: lighter;
-    margin-bottom: 10px;
-  }
+
   .profile_written_content #name {
     font-weight: bold;
+  }
+  .profile_written_content .button_head {
+    display: flex;
+    justify-content: center;
   }
   .about {
     display: flex;
@@ -169,6 +183,14 @@ footer {
     flex-direction: column;
     align-items: center;
     margin-bottom: 35px;
+  }
+  .profile .profile_pic {
+    width: 69%;
+    padding: 10px auto;
+    border: solid;
+    border-radius: 50%;
+    border-width: 6px;
+    border-color: #00abae;
   }
   .project .project_discription {
     flex-basis: 60%;
